@@ -7,3 +7,35 @@
 body{
   font-family: "Open Sans";
 }
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+
+li{
+ 
+}
+
+a{
+  text-decoration:none;
+  margin: 10px ;
+  color: #515151;
+  font-weight: 700;
+}
+
+a:hover{
+  color: #0282f9;
+}
