@@ -8,10 +8,6 @@ body{
   font-family: "Open Sans";
 }
 
-.container{
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 img{
   max-width: 100%;
@@ -84,3 +80,27 @@ h3{
   padding-left:10px;
   color: white;
 }
+
+/* fine Main */
+
+/* inizio footer */
+
+.jumbotron{
+  background-image: url(../src/assets/img/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.terms{
+  display: flex;
+  flex-direction: column;
+}
+
+.terms-and-right {
+  display: flex;             
+  align-items: flex-start;    
+  gap: 60px;                 
+  padding: 50px;
+  color: white;  
+}             
