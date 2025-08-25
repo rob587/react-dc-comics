@@ -16,6 +16,7 @@ body{
 img{
   max-width: 100%;
   height: auto;
+
 }
 
 nav{
@@ -43,4 +44,43 @@ a{
 
 a:hover{
   color: #0282f9;
+}
+
+/* Header terminato */
+
+/* inizio main */
+
+.main-content{
+  background-color:black ;
+  height: 150px;
+  color: white;
+
+}
+
+h2{
+  padding: 50px;
+  
+}
+
+.content-div{
+  background-color: #0282f9;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgs-text{
+  display: flex;
+  align-items: center;
+}
+
+.tag{
+  width: 50px;
+}
+
+h3{
+  display: flex;
+  padding-left:10px;
+  color: white;
 }
