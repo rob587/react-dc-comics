@@ -2,9 +2,15 @@
 
 const Main = () => {
   return (
-    <div>
+    <main>
+        <div className="main-content">
+            <h2>--&gt; Content Goes Here &lt;--</h2>
+        </div>
+        <div className="content-tags">
+        
+        </div>
       
-    </div>
+    </main>
   )
 }
 
