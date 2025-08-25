@@ -103,4 +103,9 @@ h3{
   gap: 60px;                 
   padding: 50px;
   color: white;  
-}             
+}
+
+.columns{
+  display: flex;
+  gap: 40px;
+}
