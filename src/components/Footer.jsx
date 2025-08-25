@@ -50,7 +50,17 @@ const Footer = () => {
 
 
       <div className="footer-infos">
-
+        <div className="btn-space">
+          <button className="sign">Sign-up Now!</button>
+        </div>
+        <div className="socials-icons">
+          <a href="#">Follow Us</a>
+          <img src="../src/assets/img/footer-facebook.png" alt="" />
+          <img src="../src/assets/img/footer-twitter.png" alt="" />
+          <img src="../src/assets/img/footer-youtube.png" alt="" />
+          <img src="../src/assets/img/footer-pinterest.png" alt="" />
+          <img src="../src/assets/img/footer-periscope.png" alt="" />
+        </div>
       </div>
 
       

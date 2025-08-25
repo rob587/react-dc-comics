@@ -98,7 +98,8 @@ h3{
 }
 
 .terms-and-right {
-  display: flex;             
+  display: flex;  
+  justify-content: space-around;           
   align-items: flex-start;    
   gap: 60px;                 
   padding: 50px;
@@ -108,4 +109,14 @@ h3{
 .columns{
   display: flex;
   gap: 40px;
+}
+
+.right-logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.footer-infos{
+  background-color: #303030;
+  height: 195px
 }
