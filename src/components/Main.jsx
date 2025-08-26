@@ -1,3 +1,4 @@
+import Comicslist from "./Comicslist"
 
 
 const Main = () => {
@@ -14,15 +15,7 @@ const Main = () => {
         
         </div>
 
-
-        <div className="main-content">
-            <h2>--&gt; Content Goes Here &lt;--</h2>
-
-        </div>
-
-
-
-        
+      <Comicslist />
 
         <div className="content-div">
             <div className="imgs-text">
@@ -48,7 +41,6 @@ const Main = () => {
             
         
         </div>
-      
     </main>
   )
 }
