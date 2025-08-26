@@ -133,3 +133,16 @@ h3{
   color: white;
   font-weight: 600;
 }
+
+.socials-icons{
+  display: flex;
+  align-items: center;
+}
+.socials-icons img{
+  padding: 10px;
+}
+
+.socials-icons a{
+  color: #0282f9;
+  font-size: 20px;
+}
