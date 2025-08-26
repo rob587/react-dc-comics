@@ -1,5 +1,6 @@
 
 
+
 const Comicslist = () => {
     const comics = [
   {
@@ -156,18 +157,27 @@ const Comicslist = () => {
   },
 ];
 
-export default comics
+
   return (
         <div className="main-content">
             <div className="container">
                 <div className="row">
+                    {comics.map((comic)=>{
+                        return (
+
                     <div className="col-25">
                         <div className="card">
-                            <img src="https://imgs.search.brave.com/aUNyvZBXUulb963JH7KnQm9AMr8bcBoLsiHREOqayIU/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvOWZm/ZWYzMDMtMGZhYy00/OGRkLTg3ODctYzUy/NTk0MDk2ODAwXzEu/MTc1ZDk1Mjg2NzY0/OGEwOTczMTY2NGMy/MTE1NjNlYWIuanBl/Zz9vZG5XaWR0aD02/MTImb2RuSGVpZ2h0/PTYxMiZvZG5CZz1m/ZmZmZmY" alt="" />
-                            <h1>Action Comics</h1>
-                        </div>
-                        
+                            <img 
+                                src={comic.thumb} 
+                                alt={comic.series} 
+                            />
+                            <h5>{comic.series}</h5>
+                        </div> 
                     </div>
+
+                       
+                        )
+                    })}
                 </div>
             </div>
 
@@ -176,3 +186,4 @@ export default comics
 }
 
 export default Comicslist
+

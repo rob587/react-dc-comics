@@ -57,7 +57,7 @@ a:hover{
 }
 
 .col-25{
-  width: 25%;
+  width: 15%;
 }
 
 
@@ -191,6 +191,13 @@ h3{
 
 
 .card{
-  margin-top: 50px;
+  margin-top: 40px;
+  
+  min-height: 200px;
+  
+}
+
+.card img{
+  min-height: 280px;
 }
 
