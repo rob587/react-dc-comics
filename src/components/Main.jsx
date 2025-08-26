@@ -3,6 +3,12 @@
 const Main = () => {
   return (
     <main>
+        
+        <div className="bg-comics">
+            
+        </div>
+
+
         <div className="main-content">
             <h2>--&gt; Content Goes Here &lt;--</h2>
 
