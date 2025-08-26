@@ -58,6 +58,8 @@ a:hover{
 
 .col-25{
   width: 15%;
+  margin-right: 20px;
+  margin-top: 50px;
 }
 
 
@@ -189,15 +191,14 @@ h3{
 
 /* nuova sezione main */
 
-
-.card{
-  margin-top: 40px;
-  
-  min-height: 200px;
-  
+.card h5{
+  font-size: 18px;
 }
+
 
 .card img{
-  min-height: 280px;
+  min-height: 280px;  
 }
+
+
 

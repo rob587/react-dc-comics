@@ -172,6 +172,8 @@ const Comicslist = () => {
                                 alt={comic.series} 
                             />
                             <h5>{comic.series}</h5>
+
+                           
                         </div> 
                     </div>
 
@@ -181,6 +183,7 @@ const Comicslist = () => {
                 </div>
             </div>
 
+                  
         </div>
   )
 }
