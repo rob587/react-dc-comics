@@ -5,7 +5,13 @@ const Main = () => {
     <main>
         
         <div className="bg-comics">
-            
+
+        <div className="overlap-btn">
+            <div className="btn-box">
+            <button>Current Series</button>
+            </div>
+        </div>
+        
         </div>
 
 
@@ -13,6 +19,11 @@ const Main = () => {
             <h2>--&gt; Content Goes Here &lt;--</h2>
 
         </div>
+
+
+
+        
+
         <div className="content-div">
             <div className="imgs-text">
                 <img className="tag" src="../src/assets/img/card.png" alt="" />
