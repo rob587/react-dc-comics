@@ -1,13 +1,13 @@
 
 
-const ComicsCard = () => {
+const ComicsCard = ({ thumb, series}) => {
   return (
     <div className="card">
         <img 
-        src={comic.thumb} 
-        alt={comic.series} 
+        src={thumb} 
+        alt={series} 
         />
-        <h5>{comic.series}</h5>                  
+        <h5>{series}</h5>                  
     </div> 
     
   )
