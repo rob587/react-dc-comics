@@ -1,3 +1,4 @@
+import ComicsCard from "./ComicsCard";
 
 
 
@@ -166,15 +167,7 @@ const Comicslist = () => {
                         return (
 
                     <div className="col-25">
-                        <div className="card">
-                            <img 
-                                src={comic.thumb} 
-                                alt={comic.series} 
-                            />
-                            <h5>{comic.series}</h5>
-
-                           
-                        </div> 
+                      <ComicsCard />
                     </div>
 
                        
